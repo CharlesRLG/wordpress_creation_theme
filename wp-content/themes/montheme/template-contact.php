@@ -16,18 +16,22 @@ get_header();
 
         <p>
             <label for="don">Prénom</label>
+            <br>
             <input id="don" type="text" name="don"  />
         </p>
         <p>
             <label for="don">Nom</label>
+            <br>
             <input id="don" type="text" name="don"  />
         </p>
         <p>
             <label for="don">email</label>
+            <br>
             <input id="don" type="text" name="don"  />
         </p>
         <p>
             <label for="don">Description du projet</label>
+            <br>
             <textarea id="don" type="text" name="don"  >
         </p>
         <p>

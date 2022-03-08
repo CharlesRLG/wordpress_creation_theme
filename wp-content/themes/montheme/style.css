@@ -41,9 +41,14 @@ article {
 #formulaireContact {
     display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: flex-start;
 	align-items: center;
-	align-content: stretch;
     text-align: center;
+    min-width: 600px;
+}
+#formulaireContact input {
+    min-width: 300px;
+}
+#formulaireContact textarea {
+    min-width: 600px;
+    min-height: 400px;
 }
