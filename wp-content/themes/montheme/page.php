@@ -8,7 +8,6 @@ if ( have_posts() ):
     ?>
     <article>
           <h1><?php the_title(); ?></h1>
-          <div><?php the_time( get_option( 'date_format' ) ); ?></div>
           <?php
           if ( has_post_thumbnail() ):
              the_post_thumbnail( 'medium' );
