@@ -164,3 +164,17 @@ h2, h3, h4, h5, h6, h7 {
     color: #4b63ce;
     text-decoration: underline #4b63ce;
 }
+
+.aligncenter img {
+    margin-bottom: 5px;
+}
+
+.alignright img {
+    float: right;
+    margin-bottom: 5px;
+}
+
+.alignleft img {
+    float: left;
+    margin-bottom: 5px;
+}
