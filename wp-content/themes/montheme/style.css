@@ -46,9 +46,9 @@ article {
     min-width: 600px;
 }
 #formulaireContact input {
-    min-width: 300px;
+    min-width: 1300px;
 }
-#formulaireContact textarea {
+#contactDescription {
     min-width: 600px;
-    min-height: 400px;
+    min-height: 200px;
 }
