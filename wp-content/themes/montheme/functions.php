@@ -69,8 +69,11 @@ add_theme_support( 'title-tag' );
 // activation de la fonctionnalité des vignettes
 add_theme_support( 'post-thumbnails' );
 
+add_theme_support('menus');
 //navBar
 function wpb_custom_new_menu() {
-  register_nav_menu('monMenu', 'Mon menu' );
+  register_nav_menu('header', 'Mon en tête du menu' );
 }
 add_action( 'init', 'wpb_custom_new_menu' );
+
+

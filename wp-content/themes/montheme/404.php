@@ -1,44 +1,36 @@
+<?php
+/**
+ * Template Name: 404
+ */
+?>
 <?php get_header(); ?>
 
-<div id="primary" class="content-area">
-<main id="main" class="site-main" role="main">
+    <section class="error-404 not-found">
+        <header class="page-header headerPageErreur404">
 
-<section class="error-404 not-found">
-<header class="page-header">
+            <!-- Personnaliser le titre ici -->
+            <h1 class="page-title">Erreur 404 : Page Non Trouvée</h1>
+        </header>
 
-<!-- Personnaliser le titre ici -->
-<h1 class="page-title">Erreur 404 : Page Non Trouvée</h1>
-</header>
+        <div class="page-content PageErreur404">
 
-<div class="page-content">
+        <!-- Placer ici le lien vers votre image d'erreur 404 personnalisée -->
+            <img src="http://localhost/wordpress_theme/wp-content/uploads/2022/03/err404.png" alt="Erreur 404" />
+        </div>
+        <div>
+            <!-- Personnaliser le message comme vous le souhaitez -->
+            <p>Nous sommes désolé mais la page que vous cherchez n'est pas ou plus 
+            disponible.</p>
+        </div>
 
-<!-- Placer ici le lien vers votre image d'erreur 404 personnalisée -->
-<p align="center"><img src="https://cdn.webandseo.fr/page-404.png" alt="Erreur 404" /></p>
+        <?php
+        $my_query = new WP_Query('showposts=5');
+        while ($my_query->have_posts()) : $my_query->the_post();
 
-<!-- Personnaliser le message comme vous le souhaitez -->
-<p>Nous sommes désolé mais la page que vous cherchez n'est pas ou plus 
-disponible. Nous vous suggérons de vous rendre sur <a href="/">la page 
-d'accueil</a> du site ou d'effectuer une nouvelle recherche :</p>
+        endwhile;
+        ?>
 
-<?php get_search_form(); ?>
+    </section>
 
-<!-- Afficher les derniers articles du blog -->
-<p>Découvrez nos derniers articles :</p>
-
-<ul>
-<?php
-$my_query = new WP_Query('showposts=5');
-while ($my_query->have_posts()) : $my_query->the_post();
-?>
-<li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
-<?php
-endwhile;
-?>
-</ul>
-
-</section>
-
-</main>
-</div>
 
 <?php get_footer(); ?>
