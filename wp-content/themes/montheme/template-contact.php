@@ -31,7 +31,7 @@ get_header();
           <div >
             <label for="don">Description du projet</label>
             <br>
-            <textarea id="contactDescription" type="text" name="don"  >
+            <textarea id="contactDescription" type="text" name="don"></textarea>
           </div>
           <div>
             <button value="Envoyer" >Envoyer</button>
