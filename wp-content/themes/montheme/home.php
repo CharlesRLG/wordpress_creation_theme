@@ -19,6 +19,7 @@ $query = new WP_Query( $args );
 if ( $query->have_posts() ):
     $query->the_post();
     ?>
+    
     <article>
         <h1><?php the_title(); ?></h1>
         <div><?php the_content(); ?></div>

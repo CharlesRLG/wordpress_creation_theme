@@ -13,6 +13,7 @@ if ( have_posts() ):
              the_post_thumbnail( 'medium' );
          endif;
          ?>
+         <div class="bande"></div>
           <div><?php the_content(); ?></div>
       </article>
     <?php

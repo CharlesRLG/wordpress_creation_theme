@@ -35,22 +35,21 @@ Text Domain: wp-custom-theme
 {
     display:block;                
     min-width: 120px;
-    border: 1px solid #EE9B00; 
-    border-radius: 3px;
-    margin: 1em;
+    border: 2px solid #7889d6; 
+    border-radius: 15px;
+    margin: 5px 0px;
     margin-right: 2em;
     margin-left: 2em;
     padding: 0.6em;
     text-align: center; 
-    background-color: #E9D8A6; 
-    color: #AE2012;          
+    background-color: #4b63ce; 
+    color: #faebe2;          
 }
 .menu a:hover
 {
-    background-color: #4B5A53;
-    color: #FFE18A;
+    background-color: #6ca9f0;
+    color: #e24515;
 }
-
 .menu-item
 {
     position: relative;
@@ -71,7 +70,6 @@ Text Domain: wp-custom-theme
 {
     max-height:150px;
 }
-
 article {
 	display: flex;
 	flex-direction: column;
@@ -96,7 +94,6 @@ article {
     min-width: 600px;
     min-height: 400px;
 }
-
 .error-404 {
     display: flex;
 	flex-direction: column;
@@ -106,4 +103,63 @@ article {
 	align-content: stretch;
     text-align: center;
     max-width: 1400px;
+}
+
+h1 {
+    border: 1px solid #7889d6; 
+    border-radius: 20px;
+    margin: 1em;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+    padding: 0px 20px;
+    padding-bottom: 5px;
+    text-align: center; 
+    background-color: #4b63ce; 
+    color: #faebe2;  
+}
+
+input {
+    border:2px solid #4b63ce;
+    border-radius: 14px;
+    background: #e7dfdd;
+    padding: 2px 5px;
+}
+textarea {
+    border:2px solid #4b63ce;
+    border-radius: 14px;
+    background: #e7dfdd;
+    padding: 2px 5px;
+}
+form div {
+    margin: 5px 0px;
+}
+
+button {              
+    min-width: 120px;
+    border: 2px solid #7889d6; 
+    border-radius: 15px;
+    margin: 5px 0px;
+    margin-right: 2em;
+    margin-left: 2em;
+    padding: 0.6em;
+    text-align: center; 
+    background-color: #4b63ce; 
+    color: #faebe2;  
+}
+label {              
+    min-width: 120px;
+    border: 2px solid #7889d6; 
+    border-radius: 15px;
+    margin: 5px 0px;
+    margin-right: 2em;
+    margin-left: 2em;
+    padding: 2px;
+    text-align: center; 
+    background-color: #4b63ce; 
+    color: #faebe2;  
+}
+
+h2, h3, h4, h5, h6, h7 {
+    color: #4b63ce;
 }
