@@ -13,7 +13,7 @@ if ( have_posts() ):
              the_post_thumbnail( 'medium' );
           endif;
           ?>
-          <div><?php the_content(); ?></div>
+          <div class="contenuArticle"><?php the_content(); ?></div>
     </article>
     <?php
 endif;

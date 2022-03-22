@@ -14,7 +14,7 @@ if ( have_posts() ):
          endif;
          ?>
          <div class="bande"></div>
-          <div><?php the_content(); ?></div>
+          <div class="contenuArticle"><?php the_content(); ?></div>
       </article>
     <?php
 endif;

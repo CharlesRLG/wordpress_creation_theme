@@ -15,6 +15,7 @@ Text Domain: wp-custom-theme
 #navbarSupportedContent {
     display: flex;
     justify-content: flex-start;
+
 }
 .menu
 {
@@ -78,12 +79,25 @@ Text Domain: wp-custom-theme
 article {
 	display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
 	align-items: center;
-	align-content: stretch;
     text-align: center;
-    max-width: 1400px;
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+.contenuArticle{
+    margin: 35px 0px;
+    background: #c8cfee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.contenuArticle p {
+    max-width: 900px;
+    background: #e9f4fd;
+    border: #4b63ce 1px solid;
+    padding: 15px 10px;
 }
 #formulaireContact {
     display: flex;
