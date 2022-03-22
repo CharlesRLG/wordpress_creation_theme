@@ -4118,7 +4118,7 @@ function get_language_attributes( $doctype = 'html' ) {
  * @param string $doctype Optional. The type of HTML document. Accepts 'xhtml' or 'html'. Default 'html'.
  */
 function language_attributes( $doctype = 'html' ) {
-	 get_language_attributes( $doctype );
+   get_language_attributes( $doctype );
 }
 
 /**

@@ -1,6 +1,5 @@
 /*
 Theme Name: WP Custom Theme
-Theme URI: https://github.com/foo/wp-custom-theme/
 Author: Foo
 Author URI: https://example.com/
 Description: Une description plus moins longue de votre thème
@@ -15,8 +14,7 @@ Text Domain: wp-custom-theme
 */
 #navbarSupportedContent {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
 }
 .menu
 {
@@ -38,17 +36,18 @@ Text Domain: wp-custom-theme
     border: 2px solid #7889d6; 
     border-radius: 15px;
     margin: 5px 0px;
-    margin-right: 2em;
-    margin-left: 2em;
-    padding: 0.6em;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
     text-align: center; 
     background-color: #4b63ce; 
     color: #faebe2;          
 }
 .menu a:hover
 {
-    background-color: #6ca9f0;
-    color: #e24515;
+    background-color: #abcef7;
+    color: #a52a04; 
 }
 .menu-item
 {
@@ -58,13 +57,19 @@ Text Domain: wp-custom-theme
 {
     list-style-type: none;
     position: absolute;
-    left: 0;
-    width: 100%;
+    width: 130%;
     color:white;
     max-height: 0px;
     text-align: center;
     transition: max-height 0.4s ease;
     overflow: hidden;
+}
+.sub-menu a:hover
+{
+    background-color: #abcef7;
+    color: #a52a04; 
+    margin-right: 15px;
+    padding: 10px;
 }
 .menu-item:hover> .sub-menu
 {
@@ -83,9 +88,11 @@ article {
 #formulaireContact {
     display: flex;
 	flex-direction: column;
-	align-items: center;
-    text-align: center;
     min-width: 600px;
+    padding: 5px 10px;
+    border: #4b63ce solid 2px;
+    border-radius: 15px;
+    background-color: #a3b0e7;
 }
 #formulaireContact input {
     min-width: 400px;
@@ -114,7 +121,6 @@ h1 {
     margin-left: 2em;
     padding: 0px 20px;
     padding-bottom: 5px;
-    text-align: center; 
     background-color: #4b63ce; 
     color: #faebe2;  
 }
@@ -125,11 +131,17 @@ input {
     background: #e7dfdd;
     padding: 2px 5px;
 }
+input:hover {
+    background: white;
+}
 textarea {
     border:2px solid #4b63ce;
     border-radius: 14px;
     background: #e7dfdd;
     padding: 2px 5px;
+}
+textarea:hover {
+    background: white;
 }
 form div {
     margin: 5px 0px;
@@ -147,6 +159,13 @@ button {
     background-color: #4b63ce; 
     color: #faebe2;  
 }
+button:hover
+{
+    background-color: #abcef7;
+    color: #a52a04;            
+    border: 2px solid #7889d6; 
+    text-align: center; 
+}
 label {              
     min-width: 120px;
     border: 2px solid #7889d6; 
@@ -154,7 +173,7 @@ label {
     margin: 5px 0px;
     margin-right: 2em;
     margin-left: 2em;
-    padding: 2px;
+    padding: 2px 5px;
     text-align: center; 
     background-color: #4b63ce; 
     color: #faebe2;  

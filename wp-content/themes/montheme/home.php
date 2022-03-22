@@ -37,7 +37,7 @@ if ( have_posts() ):
         ?>
         <article>
             <?php // Notez que le titre est dans un lien clickable ?>
-            <h2><a href="<?= get_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <h2><a href="<?php get_permalink(); ?>"><?php the_title(); ?></a></h2>
             <div><?php the_content(); ?></div>
         </article>
 
