@@ -15,6 +15,7 @@ Text Domain: wp-custom-theme
 #navbarSupportedContent {
     display: flex;
     justify-content: flex-start;
+    
 
 }
 .menu
@@ -101,7 +102,7 @@ article {
     text-align: center;
     justify-content: center;
 }
-.has-text-align-center {
+.contenuArticlePageAccueil p {
     max-width: 900px;
     background: #e9f4fd;
     border: #4b63ce 1px solid;
@@ -182,7 +183,6 @@ textarea:hover {
 form div {
     margin: 5px 0px;
 }
-
 button {              
     min-width: 120px;
     border: 2px solid #7889d6; 
