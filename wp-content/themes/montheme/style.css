@@ -84,20 +84,42 @@ article {
     margin: 10px 0px;
     padding: 5px 0px;
 }
-.contenuArticle{
+
+.positionArticle {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 15px 10px;
+}
+.contenuArticlePageAccueil{
     margin: 35px 0px;
-    background: #c8cfee;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
-.contenuArticle p {
+.has-text-align-center {
     max-width: 900px;
     background: #e9f4fd;
     border: #4b63ce 1px solid;
     padding: 15px 10px;
+}
+.page-template-default{
+    width: 100%;
+    background: #dee3f7;
+}
+.contenuArticlePage p {
+    max-width: 900px;
+    background: #e9f4fd;
+    border: #4b63ce 1px solid;
+    padding: 15px 10px;
+}
+.page-template-template-contact{
+    width: 100%;
+    background: #dee3f7;
 }
 #formulaireContact {
     display: flex;
