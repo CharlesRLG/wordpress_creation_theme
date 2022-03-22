@@ -11,7 +11,10 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<?php language_attributes(); ?>
+<?php wp_link_pages(); ?>
+<?php post_class(); ?>
+<?php wp_body_open(); ?>
 <?php wp_head(); ?>
 </head>
 
