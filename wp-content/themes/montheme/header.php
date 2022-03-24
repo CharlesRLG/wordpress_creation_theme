@@ -20,9 +20,12 @@
 
 <body <?php body_class(); ?>>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg" data-target="#navbarFond">
+  <a href="/wordpress_theme/">
+    <img class="faviconAccueil" src="https://cdn-icons-png.flaticon.com/128/20/20176.png" alt="favicon maison" >
+  </a>
   <a class="navbar-brand" href="#"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
     <span class="navbar-toggler-icon"></span>
   </button>
 
