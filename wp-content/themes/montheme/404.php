@@ -1,7 +1,12 @@
 <?php
 /**
  * Template Name: 404
+ * The template for displaying the 404 template in the LerNumerique Theme.
+ * @package WordPress
+ * @subpackage WP LerNumerique Theme
+ * @since LerNumerique 1.0
  */
+ 
 ?>
 <?php get_header(); ?>
 
